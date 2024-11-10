@@ -103,13 +103,19 @@
 }
 
 .contact-photo {
-  width: 150px;
-  height: 150px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin-bottom: 10px;
   border: 2px solid #000000;
 }
-
+/* Ajuste para pantallas pequeñas (como celulares) */
+@media (max-width: 768px) {
+  .contact-photo {
+    width: 100px;  /* Cambiar el tamaño de la imagen en pantallas pequeñas */
+    height: 100px;
+  }
+}
 
     .contact-info h3 {
       margin: 0;
